@@ -1,0 +1,146 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Graduate&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
+
+
+/*paleta de cores
+verde: #21EB0E
+roxo: #831DB8
+escurinho:#3D8561
+
+*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+    overflow-x: hidden;
+}
+
+body{
+    background-color:#F0F8FF;
+}
+header{
+   
+    background-color:#831DB8 ;
+    text-align: center;
+    font-family:'Graduate','cursive';
+    font-size: 0.9rem;
+    padding: 20px;
+    color: #fff;
+    width: 100vw;
+    margin: auto;
+
+}
+.container{
+    background-color:#F0F8Ff;
+    height: 100%;
+}
+.p-c{
+
+    background-color: #F0F8FF;
+    display: grid;
+    grid-template-columns: 24vw 24vw;
+    gap: 50px;
+    justify-content: center;
+    grid-template-areas: 
+    "content content"
+    "footer footer";
+    grid-template-columns: 150px 150px;
+    margin-top: 10px;
+}
+.card{
+    height: 30vh;
+     grid-area:'content';
+
+}
+.card > h3{
+    font-family: 'Cinzel Decorative', 'cursive';
+    font-size: 1rem;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+.card > p{
+  margin: 8px 8px 8px 15px;
+  text-indent: .4rem;
+  font-weight: 100;
+  font-size: .9rem;
+  color: rgba(0, 0, 0, 0.596);
+}
+.bold{
+    font-weight: 900;
+    color: black;
+    font-size: 1rem;
+}
+.btn{
+    text-decoration: none;
+    color: #F0F8FF;
+    background-color:#21EB0E ;
+    padding: 7px;
+    border-radius: 15px;
+    text-align: center;
+    display: block;
+}
+.btn:hover{
+    background-color: #138f08;
+    transition: .4s;
+}
+#img-1{
+background-image: url('../img/tenis1.jpg');
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 40%;
+
+}
+#img-2{
+    background-image: url('../img/tenis2.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40%;
+
+}
+#img-3{
+    background-image: url('../img/tenis3.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40%;
+    
+}
+#img-4{
+    background-image: url('../img/tenis4.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40%;
+   
+}
+#img-5{
+    background-image: url('../img/tenis5.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40%;
+
+}
+#img-6{
+    background-image: url('../img/tenis6.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40%;
+}
+
+
+footer{
+    height: 19px;
+    background-color: #831DB8;
+    margin-top: 23px;
+    width: 100%;
+    color: rgb(252, 246, 246);
+    
+}
