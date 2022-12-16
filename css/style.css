@@ -79,6 +79,7 @@ header{
     color: #F0F8FF;
     background-color:#21EB0E ;
     padding: 7px;
+    outline: black solid 1px;
     border-radius: 15px;
     text-align: center;
     display: block;
