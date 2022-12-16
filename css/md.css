@@ -2,100 +2,18 @@
 
  /* Small devices (portrait tablets and large phones, 600px and up) */
  @media only screen and (min-width: 600px) {
-    body{ background-color:#3D8561;
-      margin: 0px;
-      padding: 0px;
-   }
-   .container{
-      height: 700px;
-      margin-top: 40px;
-
-
-   }
-   .p-c{
-      grid-template-columns: 20vw 20vw 20vw;
-      padding: 10px;
-      height: 500px;
-      margin: auto;
-      gap: 47px;
- 
-   }
-   .card{
-      height: 300px;
-      width: 150px;
-       box-shadow: none;
-      border-left-width: 1px;
-      border-right-width: 1px;
-      border-top: 0px;
-      border-bottom: 0px;
-      border-style:solid;
-      padding: 3px;
-      border-color: rgba(0, 0, 0, 0.548);
-   
-   } 
- 
-   .btn{
-      height:31px;
-   }
-   footer{
-      margin: auto;
-   }
- }
+     }
 
  
  /* Medium devices (landscape tablets, 768px and up) */
  @media only screen and (min-width: 768px) {
- body{
-   background-color: #3D8561;
- }
- header{
-   width: 60vw;
-   border-bottom-left-radius: 40px;
-   border-bottom-right-radius: 40px;
- }
- .p-c{
-   grid-template-columns: 150px 150px 150xp;
-   align-self: center;
-   align-items: center;
-   align-content:space-between
- }
- .card{
-   height: 257px;
-
-   border-left-width: 1px;
-   border-right-width: 1px;
-   border-top: 0px;
-   border-bottom: 0px;
-   border-style:solid;
-   padding: 3px;
-   border-color: rgba(0, 0, 0, 0.548);
  
- }
+ 
 }
  
  /* Large devices (laptops/desktops, 992px and up) */
  @media only screen and (min-width: 992px) {
-   header{
-      width: 50vw;
-   }
-   body{
-      background-color:#3D8561 ;
-      transition: .5s;
-   }
-   .card{
-      width: 300px;
-      height: 170px;
-   }
-.card > p {
-   margin-left: 50px;
-   font-size: .9rem;
-}
-   .btn{
-
-      width: 200px;
-      margin: auto;
-   }
-
+  
  }
  
 
