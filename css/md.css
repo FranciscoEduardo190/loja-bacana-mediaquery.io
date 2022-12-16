@@ -23,7 +23,7 @@
    .card{
       height: 300px;
       width: 150px;
-       
+       box-shadow: none;
       border-left-width: 1px;
       border-right-width: 1px;
       border-top: 0px;

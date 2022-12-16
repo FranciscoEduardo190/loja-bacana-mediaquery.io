@@ -19,7 +19,7 @@ html{
 }
 
 body{
-    background-color:#195080;
+    background-color:#3D8561;
     
 }
 header{
@@ -56,15 +56,16 @@ header{
 
 
 .card{
-    height: 200px;
+    height: 250px;
      grid-area:'content';
+     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.075), -1px -1px 5px rgba(0, 0, 0, 0.089);
 
 }
 .card > h3{
     font-family: 'Cinzel Decorative', 'cursive';
     font-size: 1rem;
     text-align: center;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.486);
 }
 .card > p{
   margin: 8px 8px 8px 15px;
@@ -87,7 +88,7 @@ header{
     border-radius: 15px;
     text-align: center;
     display: block;
-    height: 17%;
+    height: 15%;
 }
 .btn:hover{
     background-color: #138f08;
