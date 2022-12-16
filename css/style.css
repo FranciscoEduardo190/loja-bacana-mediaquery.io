@@ -15,12 +15,12 @@ escurinho:#3D8561
     box-sizing: border-box;
 }
 html{
-    height: 100%;
     overflow-x: hidden;
 }
 
 body{
-    background-color:#F0F8FF;
+    background-color:#195080;
+    
 }
 header{
    
@@ -37,22 +37,26 @@ header{
 .container{
     background-color:#F0F8Ff;
     height: 100%;
+  
+   
 }
 .p-c{
-
+   height: 900px;
     background-color: #F0F8FF;
     display: grid;
     grid-template-columns: 24vw 24vw;
-    gap: 50px;
+    gap: 29px;
     justify-content: center;
     grid-template-areas: 
-    "content content"
-    "footer footer";
+    "content content";
     grid-template-columns: 150px 150px;
-    margin-top: 10px;
+    padding: 10px;
+    justify-items: center;
 }
+
+
 .card{
-    height: 30vh;
+    height: 200px;
      grid-area:'content';
 
 }
@@ -83,6 +87,7 @@ header{
     border-radius: 15px;
     text-align: center;
     display: block;
+    height: 17%;
 }
 .btn:hover{
     background-color: #138f08;
@@ -143,5 +148,4 @@ footer{
     margin-top: 23px;
     width: 100%;
     color: rgb(252, 246, 246);
-    
 }
