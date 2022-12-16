@@ -49,7 +49,7 @@
    background-color: #3D8561;
  }
  header{
-   width: 80vw;
+   width: 60vw;
    border-bottom-left-radius: 40px;
    border-bottom-right-radius: 40px;
  }
@@ -75,6 +75,9 @@
  
  /* Large devices (laptops/desktops, 992px and up) */
  @media only screen and (min-width: 992px) {
+   header{
+      width: 50vw;
+   }
    body{
       background-color:#3D8561 ;
       transition: .5s;
