@@ -18,12 +18,39 @@ html{
     overflow-x: hidden;
   box-sizing: border-box;
   height: 100vh;
+
+  --cor: #000217;
+  --cor2: rgba(255, 255, 255, 0.87);
+  --corsim: black;
+  
 }
 body{
+    background-color: var(--cor2);
    height: 100vh;
    width: 100vw;
 }
+header{
+    background-color: var(--cor2);
+    margin: auto;
+    width: 50vw;
+    border:1px solid var(--corsim);
+    text-align: center;
+    font-family:'Gaduate','cursive';
+    padding: 20px;
+    width: 100vw;
+    margin: auto;
 
+}
+.bott{
+    margin-right: 5px; 
+    position: absolute;
+    left: 90px;
+    top: 24px;
+
+}
+main{
+    background-color: var(--cor2);
+}
 .container{
     display:grid;
     justify-content: center;
@@ -31,27 +58,17 @@ body{
     gap: 10px;  
     padding: 10px;
 }
-header{
-    margin: auto;
-    width: 50vw;
-    border:1px solid black;
-    text-align: center;
-    font-family:'Gaduate','cursive';
 
-    padding: 20px;
-
-    width: 100vw;
-    margin: auto;
-
-}
 .card{
     
     padding: 5px;
-    height: 349px;
+    
+    height: 449px;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.301), -1px -1px 3px rgba(0, 0, 0, 0.219);
   
 }
 .card:hover{
+  
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.534), -1px -1px 3px rgba(0, 0, 0, 0.534);
   
 }
@@ -59,23 +76,23 @@ header{
     text-align: center;
     margin-bottom:5px;
     padding-bottom: 2px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid var(--corsim);
 }
 .card > p{
  
     text-indent: 1.3rem;
     font-size: 0.9rem;
-    color: rgba(0, 0, 0, 0.589);
+    color:var(--corsim);
     width: 95%;
 }
  .bold {
     font-size: 1.2rem;
-    color: black;
+    color: var(--corsim);
 }
 .btn{
     text-decoration: none;
     padding: 7px;
-    color:black;
+    color:var(--corsim);
     outline: black solid 1px;
     border-radius: 15px;
     text-align: center;
@@ -136,7 +153,8 @@ height: 40%;
 }
 
 footer{
-    border: 1px solid black;
+    border: 1px solid var(--corsim);
    text-indent: 1.2rem;
    }
 
+/*#000217*/
