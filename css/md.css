@@ -2,8 +2,13 @@
 
  /* Medium devices (landscape tablets, 768px and up) */
  @media only screen and (min-width: 768px) {
- 
- 
+ .container{
+    grid-template-columns: 300px 300px 300px;
+    gap: 40px;
+ }
+ .card{
+    height: 400px;
+ }
 }
  
  /* Large devices (laptops/desktops, 992px and up) */
