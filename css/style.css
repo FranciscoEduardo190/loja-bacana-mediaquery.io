@@ -54,7 +54,7 @@ main{
 .container{
     display:grid;
     justify-content: center;
-    grid-template-columns: 200px 200px;
+    grid-template-columns: 150px 150px;
     gap: 10px;  
     padding: 10px;
 }
@@ -62,8 +62,8 @@ main{
 .card{
     
     padding: 5px;
-    
-    height: 449px;
+    min-height: 100px  ;
+    height: 40vh;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.301), -1px -1px 3px rgba(0, 0, 0, 0.219);
   
 }
@@ -97,7 +97,8 @@ main{
     border-radius: 15px;
     text-align: center;
     display: block;
-    height: 37px;
+    min-height: 20px;
+    height: 10%;
     margin-top: 40px;
 }
 .btn:hover{
